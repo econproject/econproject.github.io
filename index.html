@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!--Author : VZam -->
+        <title>Economics</title>
+        <!-- Bootstrap core CSS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+ <style>
+ body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+ background-image: url("https://sykes-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/What-is-the-US-Unemployment-Rate.jpg");
+ 
+  /* Half height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+     
+     #bus {
+         float: left;
+         width: 600px;
+         padding: 35px;
+         
+         
+     }
+     #rate {
+           float: right;
+         width: 600px;
+         padding: 35px;
+         height: 360px;
+         
+         
+     }
+     #not {
+          float: right;
+         width: 600px;
+         padding: 35px;
+         height: 360px;
+         
+         
+         
+     }
+     #type {
+           float: left;
+         width: 600px;
+         padding: 35px;
+         height: 360px;
+         
+         
+         
+     }
+     #un {
+         
+       float: right;
+         width: 520px;
+         padding: 35px;
+         height: 400px;
+         
+     }
+     
+     #left {
+             float: left;
+         width: 600px;
+         padding: 35px;
+         height: 360px;
+         
+         
+         
+     }
+     
+     h1:hover {
+           color: dodgerblue;
+         
+     }
+     
+     h2:hover {
+         
+         color: dodgerblue;
+         
+     }
+      
+     p:hover {
+         
+          color: dodgerblue;
+         
+     }
+     
+     #typesof{
+         
+        display: none;
+         
+     }
+     #todaytext{
+         display: none;
+     }
+     
+     #busstext {
+         display: none;
+     }
+    #nottext{
+         display: none;
+     }
+     #whotext {
+         display: none;
+         
+     }  
+     #untext {
+         display: none;
+     }
+     
+ </style>
+<script>
+    $(document).ready(function()
+     {     
+        $('button').on('click',function()
+                       {
+                       alert("Welcome to my Webpage! Make sure to click on the headers!")
+                       
+                       });
+        
+            $('#unemploymentheader').click(function(){
+		$('#untext').slideToggle('slow','swing');
+		
+	});
+        
+        
+         $('#typesheader').click(function(){
+		$('#typesof').slideToggle('slow','swing');
+		
+	});
+        
+           $('#todayh').click(function(){
+		$('#todaytext').slideToggle('slow','swing');
+		
+	});
+        
+           $('#buss').click(function(){
+		$('#busstext').slideToggle('slow','swing');
+		
+	});
+        
+           $('#nott').click(function(){
+		$('#nottext').slideToggle('slow','swing');
+		
+	});
+        
+             $('#who').click(function(){
+		$('#whotext').slideToggle('slow','swing');
+		
+	});
+        
+        
+        
+    });
+                      
+    
+    
+    </script>
+</head>
+
+<body>
+
+    <div class="bg"></div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Economics Project</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#unemployment">Unemployment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#today">Today</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#every">Not Everyone</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 style="text-align:center">Economics Project</h1>
+    <p style="text-align:center">Econ 1 - Principles of Economics: Macroeconomics, Section #2222</p>
+      <p style="text-align:center" >Dr. Tanja D. Carter</p>
+      <div class="text-center">
+      <button type="button" class="btn btn-primary">Click Me!
+          
+          </button>
+      </div>
+  </div>
+</div>
+
+
+
+
+     <section id="unemployment">
+    <div class="container">
+      <div class="row">
+        <div class=" mx-auto">
+          
+            <div>
+            <img id="un" src="https://www.marxist.pk/wp-content/uploads/2013/11/Unemployment-cartoon.jpg"/>
+            </div>
+             <h2 id="unemploymentheader" style="text-align:center">Unemployment</h2>
+            <div id="untext">
+               
+          <p class="lead" id="drop" style="text-align:center">Occurs when a person who is currently unemployed is unable to find work. Those who are considered unemployed are people who have been actively searching for work in the past four weeks, are available to work and people who were temporarily laid off. Unemployment is used as a measure of the health of the economy. High rates of unemployment can signal economic distress while extremely low levels can also signal an overheated economy. </p>
+                <h4 style="text-align:center">Types of Unemployed Workers</h4>
+                <ul style="text-align: center"> 
+                <li>Job Loser</li>
+                <li>Job Leaver</li>
+                <li>Reentrant</li>
+                <li>New Entrant</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+     <br/><br/>
+
+      <section id="types" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto">
+            <img id="type" src="https://www.marketing91.com/wp-content/uploads/2019/03/Type-of-unemployment-2.jpg"/>
+          <h2 id="typesheader" style="text-align:center">Types of Unemployment</h2>
+            
+            <div>
+                <ul id="typesof" style="text-align: center" class="lead"><li>Structural Unemployment: Occurs in the economy when there is a mismatch between skills of the unemployed and job openings. A long recession can often create structural unemployment.</li>
+                    <li>
+        Frictional Unemployment: is caused by delays in matching available jobs and workers. Natural part of job-search process and is short-term.
+                    </li>
+                    <li>
+            Cyclical Unemployment: is caused by economic downturns and is not part of the natural unemployment rate.  Cyclical unemployment may tend to create more unemployment.
+                    </li>
+                    <li>Seasonal Unemployment:</li>
+                </ul>
+        
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <br/><br/>
+
+
+  <section id="today">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto">
+            <img id="rate" src="https://d3fy651gv2fhd3.cloudfront.net/charts/united-states-unemployment-rate@2x.png?s=usurtot&v=201905031249a1"/>
+          <h2 id="todayh" style="text-align:center">Unemployment Today<span class="badge badge-secondary">  263,000</span></h2>
+            <div>
+          <p class="lead" id="todaytext" style="text-align:center">The unemployment rate fell in April to a 3.6 percent the lowest its been since 1969. The Labor Department reported that the U.S economy had added 263,000 jobs in April, well above what was forcasted by analysts.Hispanic unemployment has dropped to a 4.2 percent, a record low since the 1970s. </p>
+            </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <br/><br/>
+
+  <section id="credit" class="bg-light">
+
+    <div class="container">
+      <div class="row">
+               
+        <div class="mx-auto">
+            <img id="bus" src="https://static1.squarespace.com/static/5178546de4b0ef72155ac77c/t/518be363e4b0e01167ecd87d/1368122212476/Choice+of+Entity+C-Corporation+VI.JPG?format=1000w"/>
+          <h2 id="buss" style="text-align:center" >Businesses</h2>
+            <div>
+          <p class="lead" id="busstext" style="text-align:center">Thanks to low unemployment, employers are being forced to raise pay and become more aggresive about training and hiring workers. Businesses are finding it increasingly challenging filling up job openings and therefore some have turned to investing in training their own workers. Instead of trying to poach talent from other companies employers are now looking to grow their talent internally.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <br/><br/>
+    
+    
+     <section id="every">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto">
+            <div>
+            <img id="not" src="https://www.merriam-webster.com/assets/mw/images/article/art-wap-article-main/inequality-3253-822e98e9169caf05bd7bdb145565bc50@2x.jpg"/>
+            
+            </div>
+            
+          <h2 id="nott" style="text-align:center">Not Everbody<span class="badge badge-secondary">  3.6</span></h2>
+            <div id="nottext">
+          <p class="lead" style="text-align:center">The unemployment rate may be at a 3.6 percent but not for everybody. The African American unemployment rate is at a 6.7 percent making it more than double the rate for whites.</p>
+            <p class="lead" style="text-align:center">There is still a concern regarding people working multiple jobs to make ends meet. Citing the Labor Department, there are still more than 5 million Americans working more than one job, a number that hasnt changed in recent years.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    
+    
+     <br/><br/>
+    
+    
+     <section id="credit" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto">
+            
+           <div class="grid">
+            <div>
+           <img id="left" src="https://sunnewsonline.com/wp-content/uploads/2017/01/donald-trump-white-house-barack-obama-hoS-1.png"/>
+            </div>
+            
+            
+          <h2 id="who" style="text-align:center">Who Takes Credit?</h2>
+            <div id="whotext">
+          <p class="lead" style="text-align:center">For more than 100 months in a row employment has grown and since the Great Recession ended in 2009 the economomy has created more than 20 million jobs.</p>
+            <p class="lead" style="text-align:center">Although much of the upswing occurred far before Trump was elected, the strength of the economy enables Republicans to make it one of their central arguments in the upcoming election.</p>
+            </div>
+            
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <br/><br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+      <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Econ Project &copy; 2019 By VZ  </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+
+
+
+
+</body>
+</html>
